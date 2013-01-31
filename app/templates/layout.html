@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Cabinet</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+    <header>
+      <h1 class="logo"><img src="{{ url_for('static', filename='img/filecabinet.svg') }}" />File Cabinet</h1>
+    </header>
+      {% block content %}
+      {% endblock %}
+  </body>
+</html>
