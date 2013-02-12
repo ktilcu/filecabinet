@@ -52,22 +52,26 @@ h3 {
 }
 
 .content{
-  height:500px;
-  width: 900px;
-  margin: 0 auto;
-  margin-top:20px;
+  min-height:500px;
+  width: 700px;
+  margin: 20px auto;
+  line-height:1.6em;
+  font-family: corbel, Verdana, Arial, Helvetica, sans-serif;
+  color: #828282;
+  padding: 10px 40px;
+  background-color: #fefefe;
+  border: 1px solid #efefef;
 }
 .content textarea{
-  width: 900px;
-  min-height: 200px;
-  border: 1px solid #eeeeee;
-  background: #fefefe;
+  width: 100%;
+  min-height: 500px;
   resize: vertical;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: lighter;
-  padding: 10px 15px;
   line-height: 1.5em;
   color: #555;
+  border:none;
+  padding-right: 10px;
 }
 .btn-large{
   padding:10px 15px;

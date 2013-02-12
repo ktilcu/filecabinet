@@ -1,4 +1,4 @@
-.content{line-height:1.6em;}.content body{font-family:Helvetica,arial,sans-serif;font-size:14px;line-height:1.6;padding-top:10px;padding-bottom:10px;background-color:white;padding:30px;}
+.content body{font-family:Helvetica,arial,sans-serif;font-size:14px;line-height:1.6;padding-top:10px;padding-bottom:10px;background-color:white;padding:30px;}
 .content body>*:first-child{margin-top:0 !important;}
 .content body>*:last-child{margin-bottom:0 !important;}
 .content a{color:#4183C4;}
@@ -12,14 +12,14 @@
 .content h4 tt,.content h4 code{font-size:inherit;}
 .content h5 tt,.content h5 code{font-size:inherit;}
 .content h6 tt,.content h6 code{font-size:inherit;}
-.content h1{font-size:32px;color:black;}
-.content h2{font-size:28px;color:black;}
+.content h1{font-size:36px;color:black;color:#8450a0;}
+.content h2{font-size:28px;color:black;color:#31a02c;}
 .content h3{font-size:22px;}
 .content h4{font-size:16px;}
 .content h5{font-size:14px;}
 .content h6{color:#777777;font-size:14px;}
 .content p,.content blockquote,.content ul,.content ol,.content dl,.content li,.content table,.content pre{margin:15px 0;}
-.content i,.content em{color:#666;font-size:14px;}
+.content i,.content em{font-size:14px;opacity:.8;}
 .content hr{background:transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;border:0 none;color:#cccccc;height:4px;padding:0;}
 .content body>h2:first-child{margin-top:0;padding-top:0;}
 .content body>h1:first-child{margin-top:0;padding-top:0;}
