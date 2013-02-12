@@ -3,12 +3,16 @@
   <head>
     <title>File Cabinet</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/markdown.css') }}">
   </head>
   <body>
     <header>
       <h1 class="logo"><img src="{{ url_for('static', filename='img/filecabinet.svg') }}" />File Cabinet</h1>
     </header>
+    <div class="flash">{{ message }}</div>
       {% block content %}
       {% endblock %}
+      <script type="text/javascript" src="{{ url_for('static', filename='js/functions.js') }}"></script>
+      <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
   </body>
 </html>

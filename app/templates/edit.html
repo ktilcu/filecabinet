@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<section class="content">
+    <textarea>
+        {%- if page.content -%}
+        {{ page.content }}
+        {%- else -%}
+        Your new document can be typed in this space. Please feel free to utilize markdown while creating it. Once saved it will be converted and branded.
+        {%- endif -%}
+    </textarea>
+    <button class="btn-large" id="saveContent">Save</button>
+</section>
+
+{% endblock %}

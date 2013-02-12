@@ -1,0 +1,8 @@
+Flask==0.9
+Flask-Markdown==0.3
+Flask-PyMongo==0.2.1
+Jinja2==2.6
+Markdown==2.2.1
+Werkzeug==0.8.3
+pymongo==2.4.2
+wsgiref==0.1.2

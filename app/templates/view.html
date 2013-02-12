@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<section class="content">
+    <article>
+        {%- if page.content -%}
+            {%- filter markdown -%}
+                {{ page.content }}
+            {%- endfilter -%}
+        {%- else -%}
+            Your new document can be typed in this space. Please feel free to utilize markdown while creating it. Once saved it will be converted and branded.
+        {%- endif -%}
+    </article>
+</section>
+
+{% endblock %}
